@@ -1,0 +1,71 @@
+@charset "UTF-8"
+
+html{
+  height: 100%;
+}
+
+body{
+   background-color: rgb(211, 243, 210);
+   margin: 0;
+   
+}
+
+div{
+  text-align: center;
+}
+
+.alfa{
+    background-color: rgb(10, 114, 92);
+    background: radial-gradient(circle, rgba(27, 196, 187, 0.925) 0%, rgb(136, 240, 136) 100%);
+    color:rgb(7, 42, 44);
+    text-align: center;
+    font-size: 90px;
+    margin-left: 88px;
+      
+  }
+  
+.text{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 30px;
+    border-radius: 8px;
+    text-align: justify;
+    padding: 33px;
+    color: darkslategray;
+  }
+
+  footer {
+    position: absolute;
+    margin-left:40%;
+    text-align: center;
+  }
+
+h3{
+  font-size: 35px;
+  font-family: 'Otomanopee One', sans-serif;
+  font-weight: bold;
+  color: blue;
+  
+}
+
+
+.logo{
+  max-width: 150px;
+  max-height: 100px;
+  position: relative;
+  left: 20px;
+  top: 15px;
+  margin: 15px;
+}
+.navegacao{
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  color:teal;
+  font-size: 25px;
+  margin: 15px;
+}
+
+hr{
+  border: 5px solid blueviolet;
+}
+
