@@ -1,13 +1,18 @@
 @charset "UTF-8"
 
-html{
-  height: 100%;
-}
+html,body{
+ 
+  margin:0;
+  padding:0;
+  overflow:auto;
+  width:100%;
+  height:100%;
+  }
 
 body{
-   background-color: rgb(211, 243, 210);
-   margin: 0;
-   
+ background-color: rgb(211, 243, 210);
+  overflow-x: hidden; 
+  
 }
 
 div{
@@ -31,6 +36,7 @@ div{
     text-align: justify;
     padding: 33px;
     color: darkslategray;
+    margin: 10px;
   }
 
   footer {

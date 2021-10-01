@@ -1,15 +1,17 @@
-@charset "UTF-8"
+@charset "UTF-8
 
-html{
-  height: 100%;
-}
+html,body{
+  margin:0;
+  padding:0;
+  overflow:auto;
+  width:100%;
+  height:100%;
+  }
 
 body{
   background: rgb(184, 206, 197);
-  margin: 0;
+  overflow-x: hidden; 
   
-
-
 }
 
 .reino, .content-inseto {
@@ -44,7 +46,6 @@ body{
   padding: 40px;
   text-align: center;
   font-weight: bold; 
-
 }
 
 .curiosidade-1{
@@ -124,18 +125,24 @@ hr{
   
 }
 
-.zoo-foto, .inse{
-width: 750px; 
-display: block;
-margin-left: 23%;
-margin-right: -30%;
-}
-
-
 
 .zoo{
 width: 750px; 
 display: block;
 margin-left: 23%;
-margin-right: -30%;
+margin-right: -10%;
 }
+
+IMG.zoo-foto, .inse {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+ }
+
+ .ove, .gri{
+   width: 550px;
+   height: 400px;
+ }
+
+ 
